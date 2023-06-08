@@ -1,0 +1,179 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.nav-bar{
+    display: flex;
+    border-radius: 5px;
+    font-family: Courier New;
+    font-size: 12px;
+}
+
+.nav-item {
+    padding: 5px 1em;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background: pink;
+    margin-top: -3px;
+}    
+
+.nav-bar:last-child {
+    border-right: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-wrapper {
+      flex-direction: column;
+    }
+
+    .nav-bar {
+      width: 30%;
+      flex-direction: column;
+    }
+
+    .logo {
+      margin-bottom: 14px;
+    }
+  }
+
+.logo {
+    height: 2em;
+}
+
+.hero {
+    height: 550px;  
+    background-image: url('https://i.ytimg.com/vi/4SKiU7uyu1A/maxresdefault.jpg');
+    background-size: contain;  
+    background-position: center;
+}
+
+.hero h1:nth-child(1) {
+    font-family: Courier New;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.hero p:nth-child(2) {
+    font-family: Courier New;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.hero p:nth-child(3) {
+    font-family: Courier New;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+}
+   
+.hero p:nth-child(4) {
+    font-family: Courier New;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+}
+
+.wrapper {
+    display: flex;
+}
+
+#headquarters-section {
+    font-family: Courier New;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.headquarters-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+}
+
+.headquarters-image1 {
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image : url('https://cdns.klimg.com/kapanlagi.com/p/daelimcons.jpg');
+    background-size: cover;  
+    background-position: center;
+}
+
+.headquarters-image2 {
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image : url('https://images.soco.id/788-Acro-Seoul-Forest-Gedung-SM-Entertainment-Terguncang-2.jpg.jpeg');
+    background-size: cover;  
+    background-position: center;
+}
+
+.headquarters-image3 {
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image : url('https://cdn.idntimes.com/content-images/community/2021/11/md202005211555515-wmark-f794131451022ebe5cae92477bb7232e-a6a0416b037ce42e849bbfb2abfa858e.jpg');
+    background-size: cover;  
+    background-position: center;
+}
+
+#message-us-section {
+    font-family: Courier New;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 15px;
+}
+
+.form-output {
+    padding: 15px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+    color: pink;
+}
+
+.social{
+    position: fixed;
+    top:50%;
+    right:0px;
+    transform:translateY(-50%);
+}
+ 
+.social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height:50px;
+    margin:0px;
+    padding: 0px;
+    line-height:0px;
+    background-color:#FFFFFF;
+    border:1px solid #CBCBCB;
+    box-shadow: pink;
+}
+ 
+.social a:hover{
+    background-color:pink;
+    transition:all ease 0.5s;
+}
+ 
+.social i{
+    font-size:20px;
+    color:#2B2B2B;
+}
